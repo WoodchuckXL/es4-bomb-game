@@ -1,0 +1,54 @@
+# Replace <PIN> with actual package pins for your board.
+# UPDuino / iCEBreaker / ICEstick all differ — check your schematic.
+
+set_io -pullup yes mg_in[4] 12
+set_io -pullup yes mg_in[3] 32
+set_io -pullup yes mg_in[2] 19
+set_io -pullup yes mg_in[1] 13
+set_io -pullup yes mg_in[0] 21
+
+set_io wr_i[3] 48
+set_io wr_i[2] 45
+set_io wr_i[1] 47
+set_io wr_i[0] 46
+
+set_io wr_o[3] 25
+set_io wr_o[2] 26
+set_io wr_o[1] 27
+set_io wr_o[0] 10
+
+set_io clk_12m 20
+
+set_io vga[8] 28 
+set_io vga[7] 38 
+set_io vga[6] 42 
+set_io vga[5] 36 
+set_io vga[4] 43 
+set_io vga[3] 34 
+set_io vga[2] 37 
+set_io vga[1] 31 
+set_io vga[0] 35 
+
+set_io wg_inA[0] 11
+set_io wg_inB[0] 9
+set_io wg_inA[1] 6
+set_io wg_inB[1] 44
+set_io wg_inA[2] 4
+set_io wg_inB[2] 3
+
+set_io -pullup yes light 2
+set_io speaker 23
+
+
+#RED1
+#RED0
+#GRN1
+#GRN0
+#BLU1
+#BLU0
+#HYSYNC
+#VSYNC
+#GND
+
+# set_io -pullup yes <signal_name> <pin_number>
+
